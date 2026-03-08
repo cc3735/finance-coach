@@ -27,7 +27,7 @@ from contextlib import asynccontextmanager
 
 from app.config import settings
 from app.api.v1 import glasses, plaid, budgets, transactions, coaching
-from services.logger import get_logger
+from app.services.logger import get_logger
 
 logger = get_logger(__name__)
 

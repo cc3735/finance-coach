@@ -4,7 +4,7 @@ glasses_session_service.py — Finance Coach glasses session lifecycle managemen
 
 from typing import Optional
 from datetime import datetime, timezone
-from services.logger import get_logger
+from app.services.logger import get_logger
 
 logger = get_logger(__name__)
 

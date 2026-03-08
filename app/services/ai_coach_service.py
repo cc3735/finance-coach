@@ -31,7 +31,7 @@ VOICE COMMANDS HANDLED:
 
 import asyncio
 from typing import Optional
-from services.logger import get_logger
+from app.services.logger import get_logger
 
 logger = get_logger(__name__)
 

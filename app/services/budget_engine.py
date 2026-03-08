@@ -22,7 +22,7 @@ from dataclasses import dataclass
 from typing import Optional
 from datetime import date, datetime, timezone
 from calendar import monthrange
-from services.logger import get_logger
+from app.services.logger import get_logger
 
 logger = get_logger(__name__)
 

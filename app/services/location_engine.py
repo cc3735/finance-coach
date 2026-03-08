@@ -26,7 +26,7 @@ import math
 from dataclasses import dataclass
 from typing import Optional
 from datetime import datetime, timezone
-from services.logger import get_logger
+from app.services.logger import get_logger
 
 logger = get_logger(__name__)
 

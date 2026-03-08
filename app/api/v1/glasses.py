@@ -33,7 +33,7 @@ from app.services.alert_engine import AlertEngine
 from app.services.ai_coach_service import AICoachService
 from app.services.tts_service import FinanceTTSService
 from app.services.location_engine import LocationEngine
-from services.logger import get_logger
+from app.services.logger import get_logger
 
 logger = get_logger(__name__)
 router = APIRouter(prefix="/api/v1/glasses", tags=["Glasses Finance"])
